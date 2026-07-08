@@ -16,10 +16,7 @@ type Panel = "chat" | "settings" | null;
 const WINDOW_POSITION_PREF_KEY = "windowPosition";
 const MOVE_SAVE_DEBOUNCE_MS = 250;
 
-// Keeps a restored window position from ever landing fully off every
-// connected monitor (e.g. the user unplugs a second monitor between
-// launches). Falls back to the primary monitor's bounds if the saved
-// point doesn't land on any currently-connected monitor at all.
+
 async function clampToVisibleMonitor(x: number, y: number, width: number, height: number) {
   const monitors = await availableMonitors();
   if (monitors.length === 0) return { x, y };
