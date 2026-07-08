@@ -233,7 +233,39 @@ CapyCode started as a way to explore a different kind of AI coding experience, b
 
 ---
 
+## Download & Install
+
+Don't want to build from source? Grab the latest installer for your OS from the [Releases page](../../releases/latest).
+
+| Platform | Look for |
+|---|---|
+| Windows | the `.exe` installer (or `.msi`) |
+| macOS (Apple Silicon) | the `aarch64.dmg` |
+| macOS (Intel) | the `x64.dmg` |
+
+The exact filename includes the version number and updates with every release — for example, the current release is:
+
+- `CapyCode_0.1.0_x64-setup.exe` — Windows installer
+- `CapyCode_0.1.0_x64_en-US.msi` — Windows MSI (alternative)
+- `CapyCode_0.1.0_aarch64.dmg` — macOS Apple Silicon
+- `CapyCode_0.1.0_x64.dmg` — macOS Intel
+
+**A note on the warnings you'll see:** these builds aren't code-signed yet — that costs money I haven't put into the project at this stage — so your OS will flag them as coming from an unverified developer. The app itself is safe; here's how to get past the warning.
+
+**Windows** — you'll see "Windows protected your PC" (SmartScreen). Click **More info**, then **Run anyway**.
+
+**macOS** — you'll see a warning that the app "can't be opened because it is from an unidentified developer," or that it's "damaged." Right-click (or Control-click) the app → **Open** → confirm **Open** in the dialog that appears. If macOS still refuses, run this once in Terminal:
+
+```bash
+xattr -cr /Applications/CapyCode.app
+```
+
+Signed, notarized builds are on the roadmap once there's budget for an Apple Developer account.
+
+---
+
 ## Getting Started
+
 
 ### Prerequisites
 
