@@ -1,6 +1,6 @@
 {
   "name": "capycode",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "CapyCode — a cozy AI coding companion that teaches instead of solving.",
   "type": "module",
   "license": "MIT",
