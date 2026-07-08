@@ -65,48 +65,35 @@ Coding sessions rarely begin and end with a single question. CapyCode stores con
 
 Rather than remaining static, CapyCode responds to the flow of a conversation through a lightweight mood system. The goal isn't to interrupt your workflow, but to make interactions feel a little more expressive.
 
-<p>
-<b>Detective</b>
-<img src="src/assets/capy/detective.png" width="50" height="50" align="middle" /> 
-— Investigates bugs and helps navigate debugging sessions.
-</p>
+<table>
+  <tr>
+    <td width="70" align="center"><img src="src/assets/capy/detective.png" width="50" alt="Detective Capy"></td>
+    <td><b>Detective</b><br>Investigates bugs and helps navigate debugging sessions.</td>
+    <td width="70" align="center"><img src="src/assets/capy/builder.png" width="50" alt="Builder Capy"></td>
+    <td><b>Builder</b><br>Joins project planning and feature discussions.</td>
+  </tr>
+  <tr>
+    <td width="70" align="center"><img src="src/assets/capy/default.png" width="50" alt="Concerned Capy"></td>
+    <td><b>Concerned</b><br>Offers encouragement during frustrating moments.</td>
+    <td width="70" align="center"><img src="src/assets/capy/thinking.png" width="50" alt="Thinking Capy"></td>
+    <td><b>Thinking</b><br>Appears while generating responses.</td>
+  </tr>
+  <tr>
+    <td width="70" align="center"><img src="src/assets/capy/celebration.png" width="50" alt="Celebration Capy"></td>
+    <td><b>Celebration</b><br>Celebrates meaningful achievements and major milestones.</td>
+    <td width="70" align="center"><img src="src/assets/capy/cheerleader.png" width="50" alt="Cheerleader Capy"></td>
+    <td><b>Cheerleader</b><br>Encourages progress and keeps momentum going.</td>
+  </tr>
+  <tr>
+    <td width="70" align="center"><img src="src/assets/capy/sleepy.png" width="50" alt="Sleepy Capy"></td>
+    <td><b>Sleepy</b><br>Rests after periods of inactivity before welcoming you back.</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
-<p>
-<b>Builder</b>
-<img src="src/assets/capy/builder.png" width="50" height="50" align="middle" /> 
-— Joins project planning and feature discussions.
-</p>
-
-<p>
-<b>Concerned</b>
-<img src="src/assets/capy/default.png" width="50" height="50" align="middle" /> 
-— Offers encouragement during frustrating moments.
-</p>
-
-<p>
-<b>Thinking</b>
-<img src="src/assets/capy/thinking.png" width="50" height="50" align="middle" /> 
-— Appears while generating responses.
-</p>
-
-<p>
-<b>Celebration</b>
-<img src="src/assets/capy/celebration.png" width="50" height="50" align="middle" /> 
-— Celebrates meaningful achievements and major milestones.
-</p>
-
-<p>
-<b>Cheerleader</b>
-<img src="src/assets/capy/cheerleader.png" width="50" height="50" align="middle" /> 
-— Encourages progress and keeps momentum going.
-</p>
-
-<p>
-<b>Sleepy</b>
-<img src="src/assets/capy/sleepy.png" width="50" height="50" align="middle" /> 
-— Rests after periods of inactivity before welcoming you back.
-</p>
 ### It stays with you
+
 
 Small interactions were just as important to me as the conversations themselves. Instead of disappearing into the background, CapyCode stays nearby, remembers where you left it, and is designed to feel like a consistent companion throughout a coding session.
 
