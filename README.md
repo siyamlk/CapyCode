@@ -1,8 +1,5 @@
 <h1>
-  <img src="src/assets/capy/default.png"
-       width="70"
-       style="vertical-align: middle; margin-right: -10px; margin-left:-15px;"
-       alt="CapyCode mascot">
+  <img src="src/assets/capy/default.png" width="70" align="middle" alt="CapyCode mascot">
   CapyCode
 </h1>
 
@@ -332,5 +329,5 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for m
   <em>
     Hope CapyCode made your coding sessions a little cozier.
   </em>
-  <img src="src/assets/capy/cheerleader.png" width="42" style="vertical-align: middle;" alt="Cheerleader Capy">
+  <img src="src/assets/capy/cheerleader.png" width="42" align="middle" alt="Cheerleader Capy">
 </p>
