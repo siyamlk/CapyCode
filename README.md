@@ -245,10 +245,10 @@ Don't want to build from source? Grab the latest installer for your OS from the 
 
 The exact filename includes the version number and updates with every release — for example, the current release is:
 
-- `CapyCode_0.1.2_x64-setup.exe` — Windows installer
-- `CapyCode_0.1.2_x64_en-US.msi` — Windows MSI (alternative)
-- `CapyCode_0.1.2_aarch64.dmg` — macOS Apple Silicon
-- `CapyCode_0.1.2_x64.dmg` — macOS Intel
+- `CapyCode_0.1.3_x64-setup.exe` — Windows installer
+- `CapyCode_0.1.3_x64_en-US.msi` — Windows MSI (alternative)
+- `CapyCode_0.1.3_aarch64.dmg` — macOS Apple Silicon
+- `CapyCode_0.1.3_x64.dmg` — macOS Intel
 
 **A note on the warnings you'll see:** these builds aren't code-signed yet — that costs money I haven't put into the project at this stage — so your OS will flag them as coming from an unverified developer. The app itself is safe; here's how to get past the warning.
 
