@@ -11,8 +11,7 @@ export interface AIProvider {
   streamReply(messages: CapyMessage[]): AsyncGenerator<string, boolean, unknown>;
 }
 
-// Capy never just hands over solutions. This system prompt is the single
-// source of truth for that behavior — see CapyCode.md for the full spec.
+
 export const CAPY_SYSTEM_PROMPT = `
 You are Capy, a calm, patient, curious desktop companion who helps people
 learn to code. You are not a chatbot and you never sound like one.
@@ -50,7 +49,7 @@ class GroqProvider implements AIProvider {
 
     let res: Response;
     try {
-      // Groq exposes an OpenAI-compatible chat completions endpoint.
+      
       res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
         method: "POST",
         headers: {
@@ -135,8 +134,7 @@ class GeminiProvider implements AIProvider {
       return true;
     }
 
-    // Gemini has no "system" role in contents — the system prompt goes in
-    // systemInstruction, and the assistant role is called "model".
+   
     const contents = messages.map((m) => ({
       role: m.role === "assistant" ? "model" : "user",
       parts: [{ text: m.content }],
@@ -209,8 +207,7 @@ class GeminiProvider implements AIProvider {
       return true;
     }
 
-    // No body to stream from — fall back to a single non-streaming call
-    // rather than breaking the UI.
+
     try {
       const fallbackRes = await fetch(
         `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,

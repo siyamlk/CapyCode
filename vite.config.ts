@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 
-// Tauri expects a fixed port and relative asset paths
+
 export default defineConfig({
   plugins: [react()],
   resolve: {
